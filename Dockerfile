@@ -10,4 +10,6 @@ RUN apt-get update -y && \
   apt-get install ansible -y && \
   apt-get install vim -y
 
+RUN apt-get install python-jmespath -y
+
 CMD ["/bin/bash"]
